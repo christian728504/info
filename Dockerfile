@@ -1,5 +1,5 @@
 # Build stage
-FROM python:3.13-slim as builder
+FROM python:3.13-slim AS builder
 RUN pip install poetry
 WORKDIR /app
 COPY pyproject.toml poetry.lock ./
