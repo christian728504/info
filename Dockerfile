@@ -1,4 +1,4 @@
-Copy# Build stage
+# Build stage
 FROM python:3.9-slim as builder
 RUN pip install poetry
 WORKDIR /app
